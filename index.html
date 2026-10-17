@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf5f1">
+  <meta name="description" content="Descubre nuestros tratamientos faciales, masajes y servicios de depilación. Regálate un momento de belleza y bienestar.">
+
+  <title>Estética | Belleza y bienestar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- CABECERA -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#inicio" class="logo">
+        <span class="logo-flower">❀</span>
+        <span>ESTÉTICA</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tratamientos">Tratamientos</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#nosotros">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">BELLEZA · CUIDADO · BIENESTAR</p>
+
+        <h1>Un momento<br><span>para ti</span></h1>
+
+        <div class="ornament">
+          <span></span> ❀ <span></span>
+        </div>
+
+        <p class="hero-description">
+          Tu belleza merece tiempo, calma y cuidados especiales.
+        </p>
+
+        <a class="button" href="#contacto">
+          Reserva tu cita <span>→</span>
+        </a>
+      </div>
+
+      <div class="hero-image" role="img"
+        aria-label="Tratamiento facial relajante en un centro de estética">
+      </div>
+
+      <div class="hero-decoration decoration-one">❋</div>
+      <div class="hero-decoration decoration-two">✿</div>
+    </section>
+
+    <!-- PRESENTACIÓN -->
+    <section class="intro section-padding" id="nosotros">
+      <p class="eyebrow">TU ESPACIO DE BIENESTAR</p>
+      <h2>Cuida de ti, <span>siempre</span></h2>
+      <p>
+        Un lugar pensado para desconectar, cuidarte y disfrutar
+        de pequeños momentos dedicados a ti.
+      </p>
+    </section>
+
+    <!-- TRATAMIENTOS -->
+    <section class="treatments section-padding" id="tratamientos">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTROS SERVICIOS</p>
+        <h2>Rituales de belleza</h2>
+        <p>Descubre el tratamiento ideal para ti.</p>
+      </div>
+
+      <div class="treatment-grid container">
+
+        <article class="treatment-card">
+          <div class="treatment-icon">✧</div>
+          <h3>Limpieza facial</h3>
+          <p>Un cuidado completo para limpiar y mimar tu piel.</p>
+          <p class="card-price">25 €</p>
+          <a href="#precios" class="text-link">Ver detalles →</a>
+        </article>
+
+        <article class="treatment-card">
+          <div class="treatment-icon">❋</div>
+          <h3>Limpieza de espalda</h3>
+          <p>Una limpieza profunda acompañada de un masaje.</p>
+          <p class="card-price">30 €</p>
+          <a href="#precios" class="text-link">Ver detalles →</a>
+        </article>
+
+        <article class="treatment-card">
+          <div class="treatment-icon">♡</div>
+          <h3>Masajes</h3>
+          <p>Dedica un momento al cuidado y la relajación corporal.</p>
+          <p class="card-price">Desde 15 €</p>
+          <a href="#precios" class="text-link">Ver detalles →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- LISTA DE PRECIOS -->
+    <section class="prices section-padding" id="precios">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTRO TARIFARIO</p>
+        <h2>Lista de <span>precios</span></h2>
+        <div class="ornament">
+          <span></span> ❀ <span></span>
+        </div>
+      </div>
+
+      <div class="price-list container">
+
+        <div class="price-row">
+          <div class="price-icon">♡</div>
+          <div class="price-info">
+            <h3>Limpieza facial</h3>
+            <p>Incluye masaje</p>
+          </div>
+          <span class="price-tag">25 €</span>
+        </div>
+
+        <div class="price-row">
+          <div class="price-icon">✧</div>
+          <div class="price-info">
+            <h3>Limpieza de espalda</h3>
+            <p>Incluye masaje</p>
+          </div>
+          <span class="price-tag">30 €</span>
+        </div>
+
+        <div class="price-row">
+          <div class="price-icon">♡</div>
+          <div class="price-info">
+            <h3>Masaje de espalda</h3>
+          </div>
+          <span class="price-tag">20 €</span>
+        </div>
+
+        <div class="price-row">
+          <div class="price-icon">✧</div>
+          <div class="price-info">
+            <h3>Masaje de brazos</h3>
+          </div>
+          <span class="price-tag">15 €</span>
+        </div>
+
+        <div class="price-row">
+          <div class="price-icon">♡</div>
+          <div class="price-info">
+            <h3>Masaje de piernas</h3>
+          </div>
+          <span class="price-tag">15 €</span>
+        </div>
+
+      </div>
+
+      <!-- DEPILACIÓN -->
+      <div class="depilation container">
+        <div class="depilation-heading">
+          <span class="depilation-symbol">✧</span>
+          <h3>Depilación</h3>
+        </div>
+
+        <div class="depilation-row">
+          <span>Cejas</span>
+          <span class="price-tag">5 €</span>
+        </div>
+
+        <div class="depilation-row">
+          <span>Labio superior</span>
+          <span class="price-tag">4 €</span>
+        </div>
+
+        <div class="depilation-row">
+          <span>Axilas</span>
+          <span class="price-tag">8 €</span>
+        </div>
+      </div>
+
+      <!-- QUÉ INCLUYEN LAS LIMPIEZAS -->
+      <div class="included-box container">
+        <span class="heart">♥</span>
+        <h3>Las limpiezas incluyen</h3>
+
+        <p>
+          Desmaquillar, peeling con maquinaria y cosmético,
+          extracción, masaje (incluye zona de cuello y escote),
+          mascarilla y, para finalizar, crema hidratante
+          y protección solar.
+        </p>
+      </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section class="benefits section-padding">
+      <div class="benefit">
+        <span>✿</span>
+        <h3>Cuidado personal</h3>
+        <p>Un momento para ti.</p>
+      </div>
+
+      <div class="benefit">
+        <span>♡</span>
+        <h3>Atención cercana</h3>
+        <p>Un trato personalizado.</p>
+      </div>
+
+      <div class="benefit">
+        <span>❋</span>
+        <h3>Ambiente relajante</h3>
+        <p>Desconecta de la rutina.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact section-padding" id="contacto">
+      <p class="eyebrow">ESTAMOS AQUÍ PARA TI</p>
+      <h2>Regálate un momento</h2>
+      <p>Escríbenos para consultar disponibilidad y reservar tu cita.</p>
+
+      <a class="button whatsapp-button"
+         href="https://wa.me/34682769033"
+         target="_blank"
+         rel="noopener noreferrer">
+        <span>☏</span> Reservar por WhatsApp
+      </a>
+
+      <p class="phone">+34 682 76 90 33</p>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <a href="#inicio" class="logo footer-logo">
+      <span class="logo-flower">❀</span>
+      <span>ESTÉTICA</span>
+    </a>
+
+    <p>Belleza, cuidado y bienestar.</p>
+    <p class="copyright">
+      © <span id="year"></span> Estética. Todos los derechos reservados.
+    </p>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a class="whatsapp-float"
+     href="https://wa.me/34682769033"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    ☏
+  </a>
+
+</body>
+</html>
